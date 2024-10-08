@@ -1,0 +1,41 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1711297574140,
+      "tag": "0000_sharp_lockheed",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1711298454715,
+      "tag": "0001_oval_plazm",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1720476053752,
+      "tag": "0002_productive_korath",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1720514516697,
+      "tag": "0003_lucky_kree",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1720537814613,
+      "tag": "0004_old_vapor",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:migrate": "tsx --env-file=./.env.development ./bin/migrateUp.ts",
+    "db:migrate:test": "tsx --env-file=./.env.test ./bin/migrateUp.ts",
+    "test": "NODE_ENV=test vitest",
+    "test:watch": "NODE_ENV=test vitest --watch"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.7.3",
+    "@stripe/stripe-js": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.4",
+    "next": "14.1.4",
+    "pg": "^8.11.3",
+    "pino": "^8.19.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.1",
+    "react-toastify": "^10.0.5",
+    "stripe": "^16.2.0"
+  },
+  "devDependencies": {
+    "@datadog/browser-logs": "^5.22.0",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20",
+    "@types/pg": "^8.11.4",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "axios": "^1.6.8",
+    "drizzle-kit": "^0.20.14",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "jsdom": "^24.0.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5",
+    "vitest": "^1.4.0"
+  }
+}
